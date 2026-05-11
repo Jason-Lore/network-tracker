@@ -1,4 +1,4 @@
-# 🌐 Network Tracker
+# 🌐 Network Tracker 🌐
 
 <div align="center">
 
@@ -14,7 +14,7 @@ A scalable network asset tracking and monitoring platform built with FastAPI and
 
 ---
 
-# 📖 Overview
+# 📖 Overview 📖
 
 Network Tracker is a backend-driven infrastructure management platform designed to track:
 
@@ -36,30 +36,30 @@ The project is designed to evolve into a full monitoring and visualization platf
 
 ---
 
-# ✨ Current Features
+# ✨ Current Features ✨
 
-## ✅ Site Management
+## ✅ Site Management ✅
 - Create sites
 - Update sites
 - Delete sites
 - Retrieve individual sites
 - Retrieve all sites
 
-## ✅ Device Management
+## ✅ Device Management ✅
 - Create devices
 - Update devices
 - Delete devices
 - Retrieve devices
 - Link devices to sites
 
-## ✅ Monitoring
+## ✅ Monitoring ✅
 - Automated asynchronous ping checks
 - Scheduled device polling
 - Per-device online/offline status
 - Ping success tracking
 - Last checked timestamps
 
-## ✅ Backend Architecture
+## ✅ Backend Architecture ✅
 - FastAPI async backend
 - MongoDB integration
 - APIRouter route separation
@@ -69,29 +69,7 @@ The project is designed to evolve into a full monitoring and visualization platf
 
 ---
 
-# 🏗️ Project Structure
-
-```txt
-app/
-├── main.py
-├── database.py
-├── utils.py
-│
-├── models/
-│   ├── site.py
-│   └── device.py
-│
-├── routes/
-│   ├── sites.py
-│   └── devices.py
-│
-└── services/
-    └── ping_service.py
-```
-
----
-
-# 🚀 Tech Stack
+# 🚀 Tech Stack 🚀
 
 | Technology | Purpose |
 |---|---|
@@ -104,9 +82,9 @@ app/
 
 ---
 
-# 🔌 API Endpoints
+# 🔌 API Endpoints 🔌
 
-## Sites
+## 🌐 Sites 🌐
 
 | Method | Endpoint |
 |---|---|
@@ -118,7 +96,7 @@ app/
 
 ---
 
-## Devices
+## 💻 Devices 💻
 
 | Method | Endpoint |
 |---|---|
@@ -131,7 +109,7 @@ app/
 
 ---
 
-# 📡 Monitoring System
+# 📡 Monitoring System 📡
 
 The backend includes a background monitoring service that:
 
@@ -150,101 +128,10 @@ Future improvements include:
 
 ---
 
-# 🛠️ Local Development
+# 🛠️ Local Development 🛠️
 
-## Clone Repository
+## 📥 Clone Repository 📥
 
 ```bash
 git clone git@github.com:YOUR_USERNAME/network-tracker.git
 cd network-tracker
-```
-
----
-
-## Create Virtual Environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Start MongoDB
-
-```bash
-sudo systemctl start mongod
-```
-
----
-
-## Run API
-
-```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
-
----
-
-# 📘 Swagger Docs
-
-FastAPI automatically generates Swagger documentation.
-
-Available at:
-
-```txt
-http://localhost:8000/docs
-```
-
----
-
-# 🔮 Planned Features
-
-- Frontend dashboard
-- Interactive network maps
-- Historical uptime graphing
-- Site health percentages
-- Authentication system
-- Role-based access
-- SNMP polling
-- Device discovery
-- WebSocket live updates
-- Prometheus/Grafana integration
-- Docker deployment
-- Kubernetes deployment
-- Alerting & notifications
-
----
-
-# 🧠 Design Goals
-
-This project is designed around:
-
-- scalability
-- async-first architecture
-- infrastructure visibility
-- monitoring extensibility
-- clean API structure
-- real-world network operations workflows
-
----
-
-# 📄 License
-
-MIT License
-
----
-
-<div align="center">
-
-Built with FastAPI, MongoDB, and sleep deprivation.
-
-</div>
